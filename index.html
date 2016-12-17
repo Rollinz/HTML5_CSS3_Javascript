@@ -5,12 +5,15 @@
 		<meta name="keywords" content="HTML5, CSS3, Javascript">
 		<meta charset="utf-8">
 		<title>Este texto es un ejemplo del documento</title>
+		<link rel="stylesheet" href="mi_estilo.css">
 	</head>
 	<body>
+		<!-- Encabezado -->
 		<header>
 			<h1>Este es el titulo principal</h1>
 		</header>
 
+		<!-- Barra de navegacion -->
 		<nav>
 			<ul>
 				<li>Principal</li>
@@ -19,5 +22,50 @@
 				<li>Contacto</li>
 			</ul>
 		</nav>
+
+		<!-- Seccion principal -->
+		<section>
+			<!-- Articulos de la pagina -->
+			<article>
+				<!-- Se puede reutilizar el header y el footer -->
+				<header>
+					<!-- Los titulos h se agrupan en hgroup -->
+					<hgroup>
+						<h1>Titulo del mensaje uno</h1>
+						<h2>Subtitulo del mensaje uno</h2>
+					</hgroup>
+				</header>
+
+				Este es el texto de mi primer mensaje
+
+				<footer>Comentarios (0)</footer>
+			</article>
+
+			<article>
+				<header>
+					<hgroup>
+						<h1>Titulo del mensaje dos</h1>
+						<h2>Subitulo del mensaje dos</h2>
+					</hgroup>
+				</header>
+
+				Este es el texto de mi segundo mensaje
+
+				<footer>
+					Comentarios (0)
+				</footer>
+			</article>
+		</section>
+
+		<!-- Barra lateral -->
+		<aside>
+			<blockquote>Mensaje numero uno</blockquote>
+			<blockquote>Mensaje numero dos</blockquote>
+		</aside>
+
+		<!-- Pie de pagina -->
+		<footer>
+			Derechos Reservados &copy; 2013-2016
+		</footer>
 	</body>
 </html>
