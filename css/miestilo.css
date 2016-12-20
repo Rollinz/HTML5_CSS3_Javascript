@@ -1,0 +1,60 @@
+*
+{
+	margin: 0px;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+span
+{
+	font-size: 20px;
+}
+
+p:nth-child(odd)
+{
+	background: #FF0000;
+}
+
+p:nth-child(even)
+{
+	background: #0400FF;
+}
+/*
+p:nth-child(1)
+{
+	background: #A2FFF6;
+}
+
+p:nth-child(2)
+{
+	background: #A8D16B;
+}
+
+p:nth-child(3)
+{
+	background: #F275FF;
+}
+
+p:nth-child(4)
+{
+	background: #E7A473;
+}
+*/
+
+#texto1
+{
+	font-size: 20px;
+}
+
+.texto1
+{
+	font-size: 20px;
+}
+
+/* Esto son atributos especificos a etiquetas que tengan el atributo texto1 en class */
+p.texto1 {color: #E96210;}
+
+p[name] {font-size: 30px;}
